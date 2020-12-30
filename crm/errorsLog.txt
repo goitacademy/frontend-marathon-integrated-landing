@@ -1,0 +1,42 @@
+2019-04-02 10:44:43Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 10:44:44Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:00:59Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:01:00Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:01:39Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:01:40Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:13:43Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:19:09Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-02 11:19:10Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-04-03 09:23:47Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-04-03 09:24:32Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-04-03 09:30:57Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-05-07 13:55:47Error Contacts: {"code":"INVALID_QUERY","details":{"reason":"invalid value for search","api_name":"Email","value":"?"},"message":"invalid query formed","status":"error"}
+
+2019-05-21 16:13:14Error Contacts: {"code":"INVALID_QUERY","details":{},"message":"invalid query formed","status":"error"}
+
+2019-05-26 06:58:53Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-05-26 06:58:54Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-05-26 06:58:55Error Contacts: {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+
+2019-05-27 18:15:50Error Contacts: {"code":"INVALID_QUERY","details":{"reason":"invalid value for search","api_name":"Email","value":"@"},"message":"invalid query formed","status":"error"}
+
+2019-05-27 21:45:30Error Contacts: {"code":"INVALID_QUERY","details":{},"message":"invalid query formed","status":"error"}
+
+2019-10-17 13:40:13Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+
+2019-10-17 13:40:14Error Contacts: {"code":"ZOHOONE_TRIAL_EXPIRED","details":{},"message":"ZohoONE trial expired","status":"error"}
+

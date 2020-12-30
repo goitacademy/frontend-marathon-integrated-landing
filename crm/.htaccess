@@ -1,0 +1,4 @@
+<Files "log_sicret_base.txt">
+Order Allow,Deny
+Deny from all
+</Files>
