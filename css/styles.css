@@ -2160,8 +2160,15 @@ input:focus {
 }
 
 .input_text,
-.input_tel,
-.input_emeil {
+.input_email {
+  padding-left: 5px;
+  border: 2px solid #ccc;
+  width: 240px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.input_tel {
   padding-left: 5px;
   border: 2px solid #ccc;
   width: 240px;
@@ -2835,7 +2842,7 @@ input:focus {
 
   .input_text,
   .input_tel,
-  .input_emeil {
+  .input_email {
     width: 280px;
     height: 40px;
   }
@@ -3577,3 +3584,9 @@ input:focus {
     background-image: url(../images/img@2x.png);
   }
 }*/
+
+.iti__flag {background-image: url("./images/flags/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("./images/flags/flags@2x.png");}
+}

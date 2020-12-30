@@ -26,7 +26,7 @@ function validName(nameInput) {
 }
 
 function validPhone(phoneInput) {
-  var phoneValue = phoneInput.value;
+  var phoneValue = removeExtraCharactersInPhoneNumber(phoneInput.value);
   var re = /(?:\w)(?:(?:(?:(?:\+?3)?8\W{0,5})?0\W{0,5})?[45679]\s?\d[^\w,;(\+]{0,5})?\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d(?!(\W?\d))/;
   var valid = re.test(phoneValue);
   !valid
@@ -143,6 +143,18 @@ function requestToGOITDatabaseWithoutGoogleId (name, phone, email, utm_medium, u
         })
 }
 
+function removeExtraCharactersInPhoneNumber (phoneNumber) {
+  var validSymbolsArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  var arr = phoneNumber.split('');
+  var newCleanArray = [];
+  arr.forEach((el) => {
+    if(validSymbolsArray.includes(el)) {
+      newCleanArray.push(el);
+    }
+  })
+  return newCleanArray.join('');
+}
+
 export default {
   getUrlParameter,
   validName,
@@ -153,6 +165,7 @@ export default {
   clearRegisterFormAndCloseRegisterModal,
   requestToGOITDatabaseWithGoogleId,
   requestToGOITDatabaseWithoutGoogleId,
+  removeExtraCharactersInPhoneNumber,
 };
 
 // $('input[type="tel"]').mask("+38(999)999-99-99");

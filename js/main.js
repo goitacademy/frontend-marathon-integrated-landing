@@ -13,6 +13,8 @@ $(document).ready(function () {
   $("input[name=utm_campaign]").val(utm_campaign);
   $("input[name=utm_content]").val(utm_content);
 
+  $('input[type="tel"]').mask("+38(999)999-99-99");
+
   // console.log("utm_source :>> ", utm_source);
   // console.log("utm_medium :>> ", utm_medium);
   // console.log("utm_term :>> ", utm_term);
@@ -46,12 +48,14 @@ $(document).ready(function () {
 
       var google_id = helpers.readCookie("_ga");
 
+      var phoneNumberWithoutExtraCharacters = helpers.removeExtraCharactersInPhoneNumber(registerFormInputTel.value);
+
       if (google_id !== null) {
         helpers
           .requestToGOITDatabaseWithGoogleId(
             google_id,
             registerFormInputName.value,
-            registerFormInputTel.value,
+            phoneNumberWithoutExtraCharacters,
             registerFormInputEmail.value,
             utm_medium,
             utm_source,
@@ -66,7 +70,7 @@ $(document).ready(function () {
               helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
                 registerFormInputName.value,
                 registerFormInputEmail.value,
-                registerFormInputTel.value,
+                phoneNumberWithoutExtraCharacters,
                 userId,
                 utm_medium,
                 utm_source,
@@ -80,7 +84,7 @@ $(document).ready(function () {
               helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
                 registerFormInputName.value,
                 registerFormInputEmail.value,
-                registerFormInputTel.value,
+                phoneNumberWithoutExtraCharacters,
                 google_id,
                 utm_medium,
                 utm_source,
@@ -98,7 +102,7 @@ $(document).ready(function () {
             helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
               registerFormInputName.value,
               registerFormInputEmail.value,
-              registerFormInputTel.value,
+              phoneNumberWithoutExtraCharacters,
               google_id,
               utm_medium,
               utm_source,
@@ -115,7 +119,7 @@ $(document).ready(function () {
         helpers
           .requestToGOITDatabaseWithoutGoogleId(
             registerFormInputName.value,
-            registerFormInputTel.value,
+            phoneNumberWithoutExtraCharacters,
             registerFormInputEmail.value,
             utm_medium,
             utm_source,
@@ -130,7 +134,7 @@ $(document).ready(function () {
               helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
                 registerFormInputName.value,
                 registerFormInputEmail.value,
-                registerFormInputTel.value,
+                phoneNumberWithoutExtraCharacters,
                 userId,
                 utm_medium,
                 utm_source,
@@ -145,7 +149,7 @@ $(document).ready(function () {
               helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
                 registerFormInputName.value,
                 registerFormInputEmail.value,
-                registerFormInputTel.value,
+                phoneNumberWithoutExtraCharacters,
                 google_id,
                 utm_medium,
                 utm_source,
@@ -164,7 +168,7 @@ $(document).ready(function () {
             helpers.redirectUserToNeighboringTabWithGETRequestToLeeloo(
               registerFormInputName.value,
               registerFormInputEmail.value,
-              registerFormInputTel.value,
+              phoneNumberWithoutExtraCharacters,
               google_id,
               utm_medium,
               utm_source,
