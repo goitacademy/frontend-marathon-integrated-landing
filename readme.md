@@ -6,15 +6,15 @@ https://goit.ua/marathon/
 
 ## Особенности:
 
-### 1. За веткой main данного проекта следит jenkins GO IT и при пушах и пулл реквестах в ветку main, данные автоматически выгружаются на https://goit.ua/marathon/
+1. За веткой main данного проекта следит jenkins GO IT и при пушах и пулл реквестах в ветку main, данные автоматически выгружаются на https://goit.ua/marathon/
 
-### 2. Логика при регистрации юзера построена согласно схеме:
+2. Логика при регистрации юзера построена согласно схеме:
 
 ```
 https://drive.google.com/file/d/187BBUkBVBf2JIyH8vvF28HlyXG1wyGL4/view?usp=sharing
 ```
 
-### 3. Документация нашего API для получения id:
+3. Документация нашего API для получения id:
 
 ```
    https://github.com/goitacademy/goit-integrations
@@ -22,7 +22,7 @@ https://drive.google.com/file/d/187BBUkBVBf2JIyH8vvF28HlyXG1wyGL4/view?usp=shari
 
 Сервис развернут здесь: https://integrations.goit.global
 
-### 4. Ссылка на репозиторий лендинга:
+4. Ссылка на репозиторий лендинга:
 
 ```
 https://github.com/goitacademy/frontend-marathon-integrated-landing
